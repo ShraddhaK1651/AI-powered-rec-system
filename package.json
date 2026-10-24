@@ -1,0 +1,14 @@
+{
+  "name": "ai-academic-career-guidance-system",
+  "version": "1.0.0",
+  "description": "AI-Powered Personalized Academic and Career Guidance System - Final Year Major Project",
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm start",
+    "dev:ai": "cd ai-service && python main.py",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": ["ai", "recommendation-system", "rag", "langchain", "chromadb", "gemini", "academic-guidance"],
+  "author": "CSE Major Project Team",
+  "license": "ISC"
+}

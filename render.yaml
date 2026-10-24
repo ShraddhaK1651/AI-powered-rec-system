@@ -1,0 +1,45 @@
+services:
+  # 1. Python AI & RAG Microservice
+  - type: web
+    name: edupath-ai-service
+    env: python
+    region: oregon
+    plan: free
+    rootDir: ai-service
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: CHROMA_PERSIST_DIR
+        value: ./chroma_db
+      - key: GEMINI_API_KEY
+        sync: false
+
+  # 2. Node.js Express API Backend
+  - type: web
+    name: edupath-backend-api
+    env: node
+    region: oregon
+    plan: free
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: MONGODB_URI
+        sync: false
+      - key: AI_SERVICE_URL
+        fromService:
+          type: web
+          name: edupath-ai-service
+          property: host
+      - key: ADMIN_EMAIL
+        value: admin@institution.edu
+      - key: ADMIN_PASSWORD
+        value: Admin@12345

@@ -1,0 +1,50 @@
+================================================================================
+NATIONAL INSTITUTE OF TECHNOLOGY & ADVANCED STUDIES
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+ACADEMIC REGULATIONS, CURRICULUM GUIDELINES & ELECTIVE POLICIES
+ACADEMIC YEAR 2025-2026
+================================================================================
+
+SECTION 1: B.TECH DEGREE REQUIREMENTS & CREDIT STRUCTURE
+1.1 Total Credits Required:
+A student enrolled in the four-year B.Tech program in Computer Science and Engineering must successfully earn a minimum of 160 credits to be eligible for the award of the B.Tech degree.
+1.2 Minimum CGPA Requirement:
+The minimum Cumulative Grade Point Average (CGPA) required for graduation is 5.0 on a 10.0 scale. To graduate with Honors, a student must secure a minimum CGPA of 8.25 without any active backlogs at the end of the eighth semester.
+
+SECTION 2: PROFESSIONAL ELECTIVES & TRACKS
+2.1 Professional Elective Tracks:
+The department offers three specialized tracks starting from the 5th semester:
+- Track A: Artificial Intelligence & Machine Learning (AIML)
+- Track B: Cloud Computing & Systems Engineering (CCSE)
+- Track C: Cybersecurity & Software Security (CSS)
+
+2.2 Elective Selection Rules:
+Students must complete a minimum of 5 Professional Electives (15 credits) and 3 Open Electives (9 credits).
+Students must choose electives matching their branch prerequisites. A minimum attendance of 75% is mandatory in each registered elective to qualify for end-semester examinations.
+
+2.3 Prerequisites for Advanced Electives:
+- Deep Learning & Neural Networks (CSE401): Requires prior completion of "Linear Algebra" (MAT201) and "Introduction to Machine Learning" (CSE305) with a grade of C or above.
+- Distributed Cloud Systems (CSE408): Requires prior completion of "Operating Systems" (CSE302) and "Computer Networks" (CSE306).
+- Cryptography & Network Security (CSE415): Requires "Discrete Mathematics" (MAT202) and "Computer Networks" (CSE306).
+- Natural Language Processing & LLMs (CSE420): Requires "Data Structures & Algorithms" (CSE201) and "Probability & Statistics" (MAT203).
+
+SECTION 3: CAPSTONE PROJECT GUIDELINES
+3.1 Major Capstone Project Phases:
+- Capstone Project Phase 1 (CSE491): Commences in Semester VII (Credits: 3). Focuses on problem formulation, literature survey, requirements specification, and preliminary architectural design.
+- Capstone Project Phase 2 (CSE492): Commences in Semester VIII (Credits: 6). Involves implementation, empirical evaluation, thesis preparation, and viva-voce.
+3.2 Project Team Formation:
+Teams of 2 to 4 students are formed under an approved faculty supervisor. Interdisciplinary projects with Electronics, Information Technology, or Data Science departments are permitted subject to Head of Department (HOD) approval.
+3.3 Evaluation Metrics:
+Project evaluation comprises 40% Continuous Internal Assessment (Supervisor and Guide reviews) and 60% End-Semester Project Viva evaluated by an external examiner committee.
+
+SECTION 4: ATTENDANCE, DETENTION & MAKE-UP EXAMINATIONS
+4.1 Attendance Policy:
+Students are expected to maintain 100% attendance. A student with attendance below 75% in any course will be detained from taking the final semester exam in that course and awarded an 'F' (Detained) grade.
+4.2 Medical Condonation:
+The Academic Dean may condone attendance shortages between 65% and 74% only on verified medical grounds supported by a recognized government hospital certificate.
+
+SECTION 5: INTERNSHIP & MOOC CREDIT TRANSFER
+5.1 Summer & Industrial Internships:
+A mandatory 8-week industrial or research internship must be completed during the summer break following Semester VI. Successful completion awards 2 credits upon presentation of company certificate and viva evaluation.
+5.2 NPTEL / SWAYAM / Coursera Credit Equivalency:
+Students may earn up to 6 credits via pre-approved 12-week NPTEL or SWAYAM online courses in lieu of selected Open Electives, provided the course proctored examination score exceeds 60%.
